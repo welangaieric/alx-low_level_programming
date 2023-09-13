@@ -5,6 +5,12 @@ void printPutchar()
 {
 	printf("_putchar\n");
 }
-void print_alphabet(void);
+void print_alphabet(void)
+{
+        char m;
 
+        for (m = 'a'; m <= 'z'; m++)
+                putchar(m);
+        putchar('\n');
+}
 #endif
