@@ -5,5 +5,6 @@ void printPutchar()
 {
 	printf("_putchar\n");
 }
+void print_alphabet(void);
 
 #endif
